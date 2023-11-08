@@ -1,7 +1,7 @@
-package com.matheus.workshop.Controller;
+package com.matheus.workshop.app.controller;
 
-import com.matheus.workshop.Model.Users;
-import com.matheus.workshop.Service.UsersService;
+import com.matheus.workshop.domain.model.Users;
+import com.matheus.workshop.app.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

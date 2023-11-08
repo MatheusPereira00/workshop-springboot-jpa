@@ -1,4 +1,4 @@
-package com.matheus.workshop.Model;
+package com.matheus.workshop.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

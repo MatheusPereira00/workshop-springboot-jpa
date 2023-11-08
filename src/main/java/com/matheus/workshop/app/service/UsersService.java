@@ -1,11 +1,9 @@
-package com.matheus.workshop.Service;
+package com.matheus.workshop.app.service;
 
-import com.matheus.workshop.Model.Users;
-import com.matheus.workshop.Repository.UserRepository;
+import com.matheus.workshop.domain.model.Users;
+import com.matheus.workshop.infra.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 import java.util.Optional;
